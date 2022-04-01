@@ -1,0 +1,663 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 96px;
+}
+
+.left{
+    font-size: 11px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.center>img {
+    width: 345px;
+    height: 36px;
+}
+
+.right {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.left a {
+    color: white;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* bottom Navbar */
+
+#bottomNav {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-top: -1px;
+}
+
+.product {
+    font-size: 14px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.product a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* image */
+
+#image img {
+    width: 100%;
+    height: 506px;
+}
+
+#image button {
+    padding: 1px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+#image button:hover {
+    background-color: rgb(58, 56, 56);
+    color: white;
+}
+
+.bottom-right>p:nth-child(1) {
+    line-height: 0px;
+    font-size: 60px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+.bottom-right>p:nth-child(2) {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 20%;
+    right: 16%;
+    left: 52%;
+}
+
+/* gotta have it */
+
+.top p {
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 57px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mid {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mid>p {
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+
+.mid>p:hover {
+    border-bottom: 2px solid;
+}
+
+#bottom {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#bottom img {
+    width: 380px;
+    height: 380px;
+}
+
+#bottom>div p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+#bottom>div p+p {
+    font-size: 14px;
+
+}
+
+#bottom>div button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#bottom>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/* Less Is More */
+
+#lessIsMore {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lessHead :nth-child(1) {
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.lessHead :nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lessImage>img {
+    width: 569px;
+    height: 750px;
+}
+
+.imageRight {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 100px;
+    margin-top: 50px;
+}
+
+.imageRight>div img {
+    width: 93px;
+    height: 93px;
+}
+
+.imageRight>div button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.imageRight>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+.imageRight>div>p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.imageRight>div>p+p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inner>p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+}
+
+.dotA {
+    height: 11px;
+    width: 11px;
+    margin-right: 5px;
+    background-color: rgb(255, 230, 213);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotB {
+    height: 11px;
+    width: 11px;
+    margin-right: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotC {
+    height: 11px;
+    width: 11px;
+    margin-right: 5px;
+    background-color: rgb(216, 127, 126);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* spring color */
+
+#springHead :nth-child(1) {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#springHead :nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#springColor {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+#springColor>div {
+    width: 292px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#springColor>div>img {
+    width: 292px;
+    height: 292px;
+}
+
+#springColor>div p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#springColor>div p+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#springColor>div button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#springColor>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/* flawless skin */
+
+#flawHead p {
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+#flawImg {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+#flawImg>div {
+    width: 415px;
+    margin: auto;
+}
+
+#flawImg>div img {
+    width: 100%;
+    height: 529px;
+}
+
+#flawImg>div p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#flawImg>div button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#flawImg>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/* eye look */
+
+#eyeLook {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.eyeRight img {
+    width: 559px;
+    height: 565px;
+}
+
+.eyeLeft {
+    align-items: center;
+    width: 480px;
+}
+
+.eyeLeft>p:nth-child(1) {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 400px;
+}
+
+.eyeLeft>p:nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.eyeLeft>div {
+    display: flex;
+    align-items: center;
+}
+
+.eyeLeft>div button {
+    height: 40px;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.eyeLeft>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+.eyeLeft img {
+    width: 126px;
+    height: 126px;
+}
+
+/* learn From pros */
+
+#learnHead {
+    margin-bottom: 30px;
+}
+
+#learnHead p:nth-child(1) {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1px;
+}
+
+#learnHead p:nth-child(2) {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2px;
+}
+
+#learnHead p:nth-child(3) {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 420px;
+    margin: auto;
+}
+
+#learnImg {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+#learnImg div {
+    margin: auto;
+    width: 430px;
+}
+
+#learnImg img {
+    width: 100%;
+    height: 289;
+}
+
+#learnImg>div p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#learnImg>div p+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#learnImg>div button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#learnImg>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/* offers */
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.offers>div {
+    width: 300px;
+    height: auto;
+}
+
+.offers>div img {
+    width: 100%;
+    height: 300px;
+}
+
+.offers>div p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offers>div p+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.offers>div a {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.offers>div a:hover {
+    color: red;
+}
+
+/* footer */
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 360px;
+    padding: 30px 250px 50px 50px;
+    margin-top: 100px;
+}
+
+#bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin-top: 1px;
+    padding: 30px 250px 50px 50px;
+}
+
+#footer input {
+    display: block;
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border: 1px solid white;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+    cursor: pointer;
+}
+
+select {
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 80px 10px 20px;
+    border: 1px solid white;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+.input h4 {
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+#footer p {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#bottomFooter p {
+    cursor: pointer;
+    color: rgb(183, 183, 184);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* icons */
+
+.icons {
+    margin: auto;
+    width: 210px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    font-size:30px;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+}
+
+.fa-regular{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.fa-solid{
+    font-size: 18px;
+    margin-left: 20px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Face</title>
+    <script src="https://kit.fontawesome.com/c8503353a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Styles/products.css" />
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="right">
+            <a href="login.html">
+                <p>LOGIN / <a href="signup.html">SIGN UP</a></p>
+            </a>
+        </div>
+        <div class="center">
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png">
+        </div>
+        <div class="left">
+            <p>JOIN BB<a href="">ACCESS</a></p>
+            <a href="index.html"><i class="fa-solid fa-location-pin"></i></a>
+            <i class="fa-regular fa-user"></i>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    </div>
+    <div id="bottomNav">
+        <div class="product">
+            <p><a href="new.html">NEW</a></p>
+            <p><a href="bestsellers.html">BESTSELLERS</a></p>
+            <p><a href="face.html">FACE</a></p>
+            <p><a href="makeup.html">MAKEUP</a></p>
+            <p><a href="skincare.html">SKINCARE</a></p>
+            <p><a href="virtual.html">VIRTUAL</a></p>
+            <p><a href="discover.html">DISCOVER</a></p>
+        </div>
+    </div>
+
+
+    <div id="WhatsNewImg">
+        <img src="https://www.bobbibrowncosmetics.com/media/export/cms/mpp/SS20/MPP-Category-Header-Face-PC_@2x.jpg">
+        <div class="centered">FACE</div>
+    </div>
+
+    <div id="topSection">
+        <div>
+            <p><a href="index.html">Home</a></p>
+        </div>
+        <div>
+            <p>19 products</p>
+            <select onchange="sortItems()" id="sorter">
+                <option value="">SORT BY</option>
+                <option value="L2H">PRICE(LOW TO HIGH)</option>
+                <option value="H2L">PRICE(HIGH TO LOW)</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="container"></div>
+
+    <div id="footer">
+        <div>
+            <h4>NEED HELP?</h4>
+            <p>Chat with an Artist</p>
+            <p>Text An Artist</p>
+            <p>Call Us (877)-310-9222</p>
+            <p>Shipping & Returns</p>
+            <p>FAQS</p>
+            <p>Careers</p>
+            <select>
+                <option value="">CHOOSE LOCATION</option>
+                <option value="">ARGENTINA</option>
+                <option value="">AUSTRELIA</option>
+                <option value="">AUSTRIA</option>
+                <option value="">CANADA</option>
+                <option value="">CHILE</option>
+                <option value="">FRANCE</option>
+                <option value="">GERMANY</option>
+                <option value="">GREECE</option>
+                <option value="">ISRAEL</option>
+                <option value="">ITALY</option>
+                <option value="">NETHERLAND</option>
+                <option value="">POLAND</option>
+                <option value="">RUSSIA</option>
+                <option value="">JAPAN</option>
+                <option value="">MIDDLE EAST</option>
+                <option value="">MEXICO</option>
+                <option value="">POLAND</option>
+                <option value="">SAUTH KOREA</option>
+            </select>
+        </div>
+        <div>
+            <h4>MY BOBBI BROWN</h4>
+            <p>BB Access</p>
+            <p>My Account</p>
+            <p>My Order</p>
+            <p>Store Locator</p>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="ENTER YOUR EMAIL">
+            <input type="text" placeholder="ENTER YOUR MOBILE">
+            <input type="SUBMIT">
+            <h4>FOLLOW US</h4>
+            <div class = "icons">   
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-youtube"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+                <div><i class="fa-brands fa-pinterest"></i></div>
+            </div>
+        </div>
+    </div>
+    <div id="bottomFooter">
+        <div>
+            <p>© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+        </div>
+        <div>
+            <p>Terms & Conditions</p>
+            <p>California Do Not Sell My Personel Information</p>
+            <p>Accessibility</p>
+        </div>
+        <div>
+            <p>Interest Based Ads</p>
+            <p>Privacy Policy</p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="Script/face.js">
+</script>

@@ -1,0 +1,272 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 96px;
+}
+
+.left {
+    font-size: 11px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.center>img {
+    width: 345px;
+    height: 36px;
+}
+
+.right {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.left a {
+    color: white;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* bottom Navbar */
+
+#bottomNav {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-top: -1px;
+}
+
+.product {
+    font-size: 14px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.product a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* whats new */
+
+#WhatsNewImg img {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+/* top section */
+
+#topSection {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#topSection a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+#topSection p {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+}
+
+#topSection select {
+    border: 1px solid;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px 30px 0px 15px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+
+
+/* container */
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 80%;
+    row-gap: 50px;
+    column-gap: 40px;
+    margin: auto;
+}
+
+#container>div {
+    line-height: 8px;
+    text-align: center;
+}
+
+#container>div img {
+    width: 360px;
+    height: 360px;
+}
+
+#container>div h4 {
+    letter-spacing: 1px;
+}
+
+#container>div p {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+#container>div button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#container>div button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/* footer */
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 360px;
+    padding: 30px 250px 50px 50px;
+    margin-top: 50px;
+}
+
+#bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin-top: 1px;
+    padding: 30px 250px 50px 50px;
+}
+
+#footer input {
+    display: block;
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border: 1px solid white;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+}
+
+#footer select {
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 80px 10px 20px;
+    border: 1px solid white;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+.input h4 {
+    margin-left: 20px;
+
+}
+
+#footer p {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#bottomFooter p {
+    cursor: pointer;
+    color: rgb(183, 183, 184);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* icons */
+
+.icons {
+    margin: auto;
+    width: 210px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    font-size:30px;
+    color: white;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+}
+
+.fa-regular{
+    font-size: 18px;
+    margin-left: 20px;
+    color: white;
+}
+
+.fa-solid{
+    font-size: 18px;
+    margin-left: 20px;
+    color: white;
+}

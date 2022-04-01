@@ -1,0 +1,143 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 96px;
+}
+
+.left {
+    font-size: 11px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.center>img {
+    width: 345px;
+    height: 36px;
+}
+
+.right {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.left a {
+    color: white;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* bottom Navbar */
+
+#bottomNav {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-top: -1px;
+    margin-bottom: 30px;
+}
+
+.product {
+    font-size: 14px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.product a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* form */
+#main{
+    text-align: center;
+    width: 60%;
+    border: 10px solid rgb(236,235,228);
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#main p{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+#main a{
+    color: rgb(245, 102, 102);
+}
+
+.box {
+   text-align: center;
+}
+.style2 {
+   height: 50px;
+   width: 35%;
+   padding: 0px 10px;
+   border: 1px solid black;
+   margin: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.style3 {
+    background-color: black;
+   padding: 15px;
+   color: white;
+   margin-top: 20px;
+   border: none;
+   width: 38%;
+   margin-bottom: 20px;
+   letter-spacing: 1px;
+   font-weight: bold;
+}
+
+.style3:hover{
+    background-color: rgb(255,117,129);
+}
+
+/* footer */
+
+#bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin-top: 50px;
+    padding: 30px 250px 50px 50px;
+}
+
+#bottomFooter p {
+    cursor: pointer;
+    color: rgb(183, 183, 184);
+    font-size: 15px;
+    font-weight: bold;
+}
+
